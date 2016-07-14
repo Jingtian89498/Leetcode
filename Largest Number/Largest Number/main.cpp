@@ -11,6 +11,20 @@ using namespace std;
 // 最后采用的方法是 类似于冒泡法。比较是将这两个数合并的两种方式进行大小比较。
 
 // 完全可以用to_string() 函数
+/* 	vector<int> a = { 1,2,3,4,5 };
+	vector<string> str;
+	string s = "";
+	int i = 0;
+	for (int num : a)
+	{
+		str.push_back(to_string(num));
+		s += str[i++];
+	}
+
+	cout << s << endl;
+*/
+
+
 string largestNumber(vector<int>& nums);
 
 int main()
