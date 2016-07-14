@@ -9,6 +9,8 @@ using namespace std;
 
 // 找出数组里最高位最大的数。（如果相等，则继续比较下一位；若位数仍相等，则取位数少的）
 // 最后采用的方法是 类似于冒泡法。比较是将这两个数合并的两种方式进行大小比较。
+
+// 完全可以用to_string() 函数
 string largestNumber(vector<int>& nums);
 
 int main()
